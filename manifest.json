@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+
+	"name": "Hashify Password Protector",
+	"description": "Hash your password and protect yourself against dictionary attacks and social engineering.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": {
+			"16": "images/hashify16.png",
+        	"48": "images/hashify48.png",
+        	"128": "images/hashify128.png"
+        },
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+		"http://*/",
+		"https://*/"
+	]
+}

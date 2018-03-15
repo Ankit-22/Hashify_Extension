@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hashify Password Protector</title>
+	<script src="popup.js"></script>
+	<style type="text/css">
+		body {
+			width: 400px;
+			height: 200px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hashify Password Protector</h1>
+	Password: &emsp;&emsp;<input type = "text" name = "password" id = "password_input"><br><br>
+	Salt number:&emsp;<input type = "number" name = "salt" min = "1000" max = "9999" id = "salt_input"><br><br>
+	<button id = "generate_hash">Get Hash!</button>&emsp;
+	<button id = "get_salt">Get a Random Salt!</button>
+	<div id="hash_value"></div>
+</body>
+</html>
